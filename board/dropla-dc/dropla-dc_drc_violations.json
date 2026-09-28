@@ -1,0 +1,784 @@
+{
+  "board": "C:\\Users\\denys\\SDK\\tachka\\dropla-dc\\board\\dropla-dc\\dropla-dc.kicad_pcb",
+  "timestamp": "2026-09-20T21:44:55",
+  "total_violations": 76,
+  "violation_counts": {
+    "hole_clearance": 5,
+    "clearance": 2,
+    "courtyards_overlap": 7,
+    "npth_inside_courtyard": 4,
+    "copper_edge_clearance": 5,
+    "drill_out_of_range": 24,
+    "solder_mask_bridge": 3,
+    "silk_edge_clearance": 16,
+    "silk_overlap": 1,
+    "silk_over_copper": 9
+  },
+  "severity_counts": {
+    "error": 50,
+    "warning": 26,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043e \u0437\u0430\u0437\u043e\u0440 \u043c\u0456\u0436 \u043e\u0442\u0432\u043e\u0440\u0430\u043c\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u044c \u043e\u0442\u0432\u043e\u0440\u0456\u0432 \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 91.0,
+        "y": 74.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043e \u0437\u0430\u0437\u043e\u0440 \u043c\u0456\u0436 \u043e\u0442\u0432\u043e\u0440\u0430\u043c\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u044c \u043e\u0442\u0432\u043e\u0440\u0456\u0432 \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 116.8,
+        "y": 66.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043e \u0437\u0430\u0437\u043e\u0440 \u043c\u0456\u0436 \u043e\u0442\u0432\u043e\u0440\u0430\u043c\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u044c \u043e\u0442\u0432\u043e\u0440\u0456\u0432 \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 116.8,
+        "y": 66.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0437\u0430\u0437\u043e\u0440\u0443 (\u0437\u043e\u043d\u0430 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 116.8,
+        "y": 73.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043e \u0437\u0430\u0437\u043e\u0440 \u043c\u0456\u0436 \u043e\u0442\u0432\u043e\u0440\u0430\u043c\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u044c \u043e\u0442\u0432\u043e\u0440\u0456\u0432 \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 116.8,
+        "y": 73.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0437\u0430\u0437\u043e\u0440\u0443 (\u0437\u043e\u043d\u0430 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 116.8,
+        "y": 73.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "hole_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043e \u0437\u0430\u0437\u043e\u0440 \u043c\u0456\u0436 \u043e\u0442\u0432\u043e\u0440\u0430\u043c\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u044c \u043e\u0442\u0432\u043e\u0440\u0456\u0432 \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,2500 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,0000 mm)",
+      "location": {
+        "x": 116.8,
+        "y": 73.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 94.8,
+        "y": 68.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "npth_inside_courtyard",
+      "severity": "error",
+      "message": "NPTH inside courtyard",
+      "location": {
+        "x": 90.6,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 94.8,
+        "y": 68.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "npth_inside_courtyard",
+      "severity": "error",
+      "message": "NPTH inside courtyard",
+      "location": {
+        "x": 98.9,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 98.075,
+        "y": 76.025,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "npth_inside_courtyard",
+      "severity": "error",
+      "message": "NPTH inside courtyard",
+      "location": {
+        "x": 98.9,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 90.6,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "npth_inside_courtyard",
+      "severity": "error",
+      "message": "NPTH inside courtyard",
+      "location": {
+        "x": 90.6,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 90.6,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 167.2,
+        "y": 88.2,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "courtyards_overlap",
+      "severity": "error",
+      "message": "Courtyards overlap",
+      "location": {
+        "x": 207.3,
+        "y": 105.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0432\u0456\u0434\u0441\u0442\u0443\u043f\u0443 \u0432\u0456\u0434 \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,5000 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,3875 mm)",
+      "location": {
+        "x": 83.4,
+        "y": 114.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0432\u0456\u0434\u0441\u0442\u0443\u043f\u0443 \u0432\u0456\u0434 \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,5000 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,4380 mm)",
+      "location": {
+        "x": 83.4,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0432\u0456\u0434\u0441\u0442\u0443\u043f\u0443 \u0432\u0456\u0434 \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,5000 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,3780 mm)",
+      "location": {
+        "x": 106.2,
+        "y": 114.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0432\u0456\u0434\u0441\u0442\u0443\u043f\u0443 \u0432\u0456\u0434 \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,5000 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,3780 mm)",
+      "location": {
+        "x": 106.2,
+        "y": 114.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "copper_edge_clearance",
+      "severity": "error",
+      "message": "\u041f\u043e\u0440\u0443\u0448\u0435\u043d\u043d\u044f \u0432\u0456\u0434\u0441\u0442\u0443\u043f\u0443 \u0432\u0456\u0434 \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 (\u043d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f \u043a\u043e\u043d\u0442\u0443\u0440\u0443 \u043f\u043b\u0430\u0442\u0438 \u0437\u0430\u0437\u043e\u0440 0,5000 mm; \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e 0,4380 mm)",
+      "location": {
+        "x": 83.4,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 211.3,
+        "y": 108.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 212.3,
+        "y": 108.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 213.3,
+        "y": 108.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 211.3,
+        "y": 107.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 212.3,
+        "y": 107.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 213.3,
+        "y": 107.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 218.425,
+        "y": 54.96,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 218.425,
+        "y": 55.96,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 218.425,
+        "y": 56.96,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 219.725,
+        "y": 54.96,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 219.725,
+        "y": 55.96,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 219.725,
+        "y": 56.96,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 94.475,
+        "y": 80.625,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 94.475,
+        "y": 81.625,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 94.475,
+        "y": 82.625,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 95.775,
+        "y": 80.625,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 95.775,
+        "y": 81.625,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 95.775,
+        "y": 82.625,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 173.125,
+        "y": 88.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 173.125,
+        "y": 89.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 173.125,
+        "y": 90.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 174.425,
+        "y": 88.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 174.425,
+        "y": 89.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "drill_out_of_range",
+      "severity": "error",
+      "message": "\u0420\u043e\u0437\u043c\u0456\u0440 \u043e\u0442\u0432\u043e\u0440\u0443 \u043f\u043e\u0437\u0430 \u0434\u0456\u0430\u043f\u0430\u0437\u043e\u043d\u043e\u043c (\u0432\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0438 \u043e\u0431\u043c\u0435\u0436\u0435\u043d\u043d\u044f \u043f\u043b\u0430\u0442\u0438 \u043c\u0456\u043d. \u043e\u0442\u0432\u0456\u0440 0,3000 mm; \u0444\u0430\u043a\u0442\u0438\u0447\u043d\u0438\u0439 0,2000 mm)",
+      "location": {
+        "x": 174.425,
+        "y": 90.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "\u041f\u0430\u044f\u043b\u044c\u043d\u043e\u0457 \u043c\u0430\u0441\u043a\u0438 \u0437 \u043b\u0438\u0446\u0435\u0432\u043e\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u0438 \u043e\u0431'\u0454\u0434\u043d\u0443\u0454 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0438 \u0437 \u0440\u0456\u0437\u043d\u0438\u043c\u0438 \u0437\u0432'\u044f\u0437\u043a\u0430\u043c\u0438",
+      "location": {
+        "x": 116.8,
+        "y": 73.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "\u041f\u0430\u044f\u043b\u044c\u043d\u043e\u0457 \u043c\u0430\u0441\u043a\u0438 \u0437 \u043b\u0438\u0446\u0435\u0432\u043e\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u0438 \u043e\u0431'\u0454\u0434\u043d\u0443\u0454 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0438 \u0437 \u0440\u0456\u0437\u043d\u0438\u043c\u0438 \u0437\u0432'\u044f\u0437\u043a\u0430\u043c\u0438",
+      "location": {
+        "x": 90.6,
+        "y": 73.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "\u041f\u0430\u044f\u043b\u044c\u043d\u0430 \u043c\u0430\u0441\u043a\u0430 \u0437\u0432\u043e\u0440\u043e\u0442\u043d\u044c\u043e\u0457 \u0441\u0442\u043e\u0440\u043e\u043d\u0438 \u043e\u0431'\u0454\u0434\u043d\u0443\u0454 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0438 \u0437 \u0440\u0456\u0437\u043d\u0438\u043c\u0438 \u0437\u0432'\u044f\u0437\u043a\u0430\u043c\u0438",
+      "location": {
+        "x": 116.8,
+        "y": 73.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 83.4,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 83.4,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 135.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 139.0,
+        "y": 64.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 106.2,
+        "y": 114.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge",
+      "location": {
+        "x": 106.2,
+        "y": 114.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 114.4,
+        "y": 116.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 128.4361,
+        "y": 71.0604,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 128.4361,
+        "y": 71.0604,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 105.35,
+        "y": 68.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 105.35,
+        "y": 68.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 98.91,
+        "y": 64.49,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 98.91,
+        "y": 72.71,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 98.91,
+        "y": 72.71,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 101.585,
+        "y": 74.375,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 90.69,
+        "y": 72.71,
+        "unit": "mm"
+      }
+    }
+  ]
+}
