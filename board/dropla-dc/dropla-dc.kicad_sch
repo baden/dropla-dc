@@ -773,6 +773,102 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1449,6 +1545,18 @@
 		)
 		(uuid "40e3ec6c-055e-48ec-af91-e426a0340c94")
 	)
+	(rectangle
+		(start 53.34 167.64)
+		(end 83.82 195.58)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fc237391-888a-4885-8375-33356fdf0694")
+	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
 		(at 23.876 170.18 0)
@@ -1458,6 +1566,16 @@
 			)
 		)
 		(uuid "05c0cee7-c66a-4abe-ac47-a1e187fb89a7")
+	)
+	(text "Fiducials"
+		(exclude_from_sim no)
+		(at 62.23 170.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07e55a6d-a5f8-4c6d-bb67-7174ccfdc8c0")
 	)
 	(junction
 		(at 54.61 64.77)
@@ -5748,7 +5866,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "VIN"
 			(at 34.036 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6956,7 +7074,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V4+"
 			(at 270.764 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,7 +7949,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V1+"
 			(at 270.764 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11009,7 +11127,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V2-"
 			(at 272.034 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11804,7 +11922,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V3+"
 			(at 272.034 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12322,7 +12440,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V4-"
 			(at 270.764 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13769,7 +13887,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V3-"
 			(at 272.034 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13846,7 +13964,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V1-"
 			(at 270.764 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14586,6 +14704,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 58.42 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d00c3174-a576-42d7-87e3-d342f3bdea0b")
+		(property "Reference" "FID2"
+			(at 60.96 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 60.96 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 58.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 58.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dropla-dc"
+				(path "/05a11042-efd8-41bf-a962-23b763a44bea"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 255.27 110.49 0)
 		(unit 1)
@@ -14776,7 +14970,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "V2+"
 			(at 272.034 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15873,6 +16067,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 58.42 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e308f9d7-245f-436f-9071-922f629a36e6")
+		(property "Reference" "FID1"
+			(at 60.96 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 60.96 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "dropla-dc"
+				(path "/05a11042-efd8-41bf-a962-23b763a44bea"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 121.92 0)
 		(unit 1)
@@ -16888,7 +17158,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "GND_IN"
 			(at 34.036 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
